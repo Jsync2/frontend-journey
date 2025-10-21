@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-Light-red: hsl(0, 100%, 67%);
+        --color-Orangey-yellow: hsl(39, 100%, 56%);
+        --color-Green-teal: hsl(166, 100%, 37%);
+        --color-Cobalt-blue: hsl(234, 85%, 45%);
+
+        --color-Light-slate-blue: hsl(252, 100%, 67%); /* Background */
+        --color-royalblue: hsl(241, 81%, 54%);
+
+        --color-Violet-blue: hsla(256, 72%, 46%, 1); /* Circle */
+        --color-Persian-blue: hsla(241, 72%, 46%, 0);
+
+        --color-White: hsl(0, 0%, 100%);
+        --color-Pale-blue: hsl(221, 100%, 96%);
+        --color-Light-lavender: hsl(241, 100%, 89%);
+        --color-Dark-gray-blue: hsl(224, 30%, 27%);
+      }
+    </style>
+</head>
+<body class="flex flex-col justify-center items-center bg-Pale-blue">
+  <main class="flex flex-col justify-center items-center max-w-xl lg:flex-row bg-white lg:rounded-xl lg:mt-32 lg:max-w-[700px] lg:max-h-[400px]">
+    <section class="text-center gap-8 p-8 flex flex-col bg-gradient-to-b from-Light-slate-blue to-royalblue text-white items-center rounded-b-3xl font-semibold lg:rounded-3xl">
+      <h1 class="text-xl text-Light-lavender" >Your Result</h1>
+      <div class="flex flex-col rounded-full w-32 h-32 justify-center bg-gradient-to-b from-Violet-blue to-Persian-blue align-self-center">
+        <span class="text-6xl font-bold">76</span>
+        <span class="text-Light-lavender">of 100</span>
+      </div>
+      <h2 class="text-2xl">Great</h2>
+      <p class="text-Light-lavender">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <article class="w-full p-6 flex flex-col gap-4">
+      <h3 class="text-Dark-gray-blue font-bold text-lg">Summary</h3>
+      <div class="flex flex-col gap-4 font-semibold text-Dark-gray-blue">
+        <div class="flex justify-between p-4 bg-Light-red/8 rounded-md ">
+          <div class="flex gap-4">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction">
+            <span class="text-Light-red">Reaction</span>
+          </div>
+          <span><b>80</b> / 100</span>
+        </div>
+        <div class="flex justify-between p-4 bg-Orangey-yellow/8 rounded-md ">
+          <div class="flex gap-4">
+            <img src="./assets/images/icon-memory.svg" alt="memory">
+            <span class="text-Orangey-yellow">Memory</span>
+          </div>
+          <span><b>80</b> / 100</span>
+        </div>
+        <div class="flex justify-between p-4 bg-Green-teal/8 rounded-md ">
+          <div class="flex gap-4">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal">
+            <span class="text-Green-teal">Verbal</span>
+          </div>
+          <span><b>80</b> / 100</span>
+        </div>
+        <div class="flex justify-between p-4 bg-Cobalt-blue/8 rounded-md ">
+          <div class="flex gap-4">
+            <img src="./assets/images/icon-visual.svg" alt="visual">
+            <span class="text-Cobalt-blue">Visual</span>
+          </div>
+          <span><b>80</b> / 100</span>
+        </div>
+      </div>
+      <button class="p-4 rounded-full bg-Dark-gray-blue text-white font-bold cursor-pointer hover:bg-gradient-to-b from-Light-slate-blue to-royalblue">Continue</button>
+    </article>
+  </main>
+  <div class="text-center text-xs">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Justine Liban</a>.
+  </div>
+</body>
+</html>
