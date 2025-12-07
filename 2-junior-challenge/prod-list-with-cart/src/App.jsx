@@ -3,7 +3,6 @@ import  Card from './components/Card'
 import Cart from './components/Cart'
 import OrderConfirmation from './components/OrderConfirmation'
 import data from './data.json'
-import './App.css'
 
 function App() {
   const [cartItems, setCartItems] = useState([])

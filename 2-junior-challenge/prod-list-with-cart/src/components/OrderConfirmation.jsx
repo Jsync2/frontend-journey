@@ -3,7 +3,7 @@ export default function OrderConfirmation({ cartItems, totalPrice, onConfirm }) 
     <div className="fixed inset-0 bg-black/70 flex justify-center p-4 z-50">
       <div className="bg-white rounded-lg p-8 max-w-md w-full max-h-160">
         <div className="flex mb-6">
-          <img src="/public/assets/images/icon-order-confirmed.svg" alt="order confirmed" />
+          <img src="/assets/images/icon-order-confirmed.svg" alt="order confirmed" />
         </div>
         <h2 className="text-2xl font-bold text-(--color-Rose-900) mb-2">Order Confirmed</h2>
         <p className="text-(--color-Rose-500) text-sm mb-6">We hope you enjoy your food!</p>
