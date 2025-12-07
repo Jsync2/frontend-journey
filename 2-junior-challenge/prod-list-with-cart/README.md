@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jsync2/frontend-journey/tree/main/2-junior-challenge/prod-list-with-cart)
-- Live Site URL: [Add live site URL here](https://prodlist-with-cart.netlify.app/)
+- Solution URL: [https://github.com/Jsync2/frontend-journey/tree/main/2-junior-challenge/prod-list-with-cart]
+- Live Site URL: [https://prodlist-with-cart.netlify.app/]
 
 ## My process
 
@@ -55,5 +55,5 @@ I learned about how props work and how to pass them down to child components. I 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jsync2)
-- Twitter - [@yourusername](https://x.com/Jsync7)
+- Frontend Mentor - [@Jsync2]
+- Twitter - [@jsync7]
