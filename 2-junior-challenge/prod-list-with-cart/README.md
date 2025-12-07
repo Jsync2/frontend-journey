@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Jsync2/frontend-journey/tree/main/2-junior-challenge/prod-list-with-cart]
-- Live Site URL: [https://prodlist-with-cart.netlify.app/]
+- Live Site URL: [https://frontend-journey-fawn.vercel.app/]
 
 ## My process
 
